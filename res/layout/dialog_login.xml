@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <rj.hive.tastery.ui.MyEditTextBrandon
+            android:id="@+id/edit1"
+            android:singleLine="true"
+            android:lines="1"
+            android:layout_width="wrap_content"
+            android:minWidth="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+
+        <rj.hive.tastery.ui.MyEditTextBrandon
+            android:id="@+id/edit2"
+            android:singleLine="true"
+            android:lines="1"            
+            android:inputType="textPassword"
+            android:layout_width="wrap_content"
+            android:minWidth="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+
+    </LinearLayout>
+    
+    <rj.hive.tastery.ui.MyButtonBrandon
+            android:id="@+id/login"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linearlayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"      
+            android:textColor="#FFFFFF"
+            android:background="@drawable/registration_buttons_bg"
+        />
+
+    
+    
+    <LinearLayout
+        android:id="@+id/external_login"
+        android:layout_below="@+id/login"
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="5dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="Login via"
+            android:layout_marginRight="8dp" />
+        
+        <rj.hive.tastery.ui.MyButtonBrandon
+			xmlns:fb="http://schemas.android.com/apk/res-auto"            
+            android:id="@+id/fbBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fb_logo"
+            android:layout_marginRight="5dp"  />
+  
+        
+        <rj.hive.tastery.ui.MyButtonBrandon
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp" 
+            android:layout_height="wrap_content"
+            android:background="@drawable/twitter_logo" />
+
+    </LinearLayout>	   
+    
+    <rj.hive.tastery.ui.MyButtonBrandon
+            android:id="@+id/signup"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/external_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"      
+            android:textColor="#FFFFFF"
+            android:background="@drawable/registration_buttons_bg"
+        />    
+        
+    <View 
+        	android:layout_below="@+id/signup"
+        	android:layout_width="wrap_content"
+        	android:layout_height="0dp"
+        />
+    
+</RelativeLayout>

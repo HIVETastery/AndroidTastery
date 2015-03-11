@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">393571347459737</string>
+    <string name="app_name">Tastery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#D3D3D3</color>
+    <color name="black">#000000</color>
+	<color name="blue1">#005476</color>
+
+    
+    <color name="list_item_title">#515252</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#f27242</color>    
+    <color name="list_divider">#b9b9af</color> 
+    <color name="counter_text_bg">#ff946c</color>
+    <color name="counter_text_color">#3a3a3a</color>
+    
+
+    
+	<string-array name="quantity">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>	
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>		
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>			
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>												
+	</string-array>    
+	    
+    <!-- PlaceHolder Days -->
+    <string-array name="placeholder_days">
+        <item >Monday</item>
+        <item >Tuesday</item>
+        <item >Wednesday</item>
+        <item >Thursday</item>
+        <item >Friday</item>
+    </string-array>    
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Menu</item>
+        <item >Who we are</item>
+        <item >What we do</item>
+        <item >Why we do it</item>
+        <item >How we do it</item>
+        <item >Gift</item>
+        <item >Contact Us</item>
+        <item >Help/FAQ</item>
+        <item >Privacy Policy</item>
+        <item >Terms &amp; Conditions</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>
+        <item>@drawable/ic_blank</item>        
+    </array>
+        
+</resources>

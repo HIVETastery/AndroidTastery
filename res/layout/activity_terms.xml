@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  android:id="@+id/scrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FFFFFF"
+  android:fillViewport="true">
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#ffffff">
+        
+      <rj.hive.tastery.ui.MyTextViewBrandon
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Terms and Conditions"
+          android:layout_margin="5dp"
+          android:layout_alignParentTop="true" />
+
+      <LinearLayout
+          android:id="@+id/linearlayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_margin="8dp"
+          android:layout_below="@+id/textView1" >
+
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginTop="30dp"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:id="@+id/txtTerms"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="First Name"
+	              android:padding="3dp"/>
+                        
+	          
+		
+		    </LinearLayout>	
+          
+          
+          
+      </LinearLayout>  
+      
+      <rj.hive.tastery.ui.MyButtonBrandon
+            android:id="@+id/btnAgree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_buttons_bg"
+            android:layout_marginTop="5dp" 
+            android:layout_marginBottom="15dp"
+            android:padding="5dp"
+            android:text="Agree"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linearlayout1" />      
+      
+	
+  </RelativeLayout>
+</ScrollView>

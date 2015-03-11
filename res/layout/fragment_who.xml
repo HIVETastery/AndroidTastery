@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:id="@+id/rj.hive.tastery.ui.MyTextViewBrandon1"
+			android:textAppearance="?android:attr/textAppearanceLarge"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Who are We?" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rj.hive.tastery.ui.MyTextViewBrandon1" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/text"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tastery is deeply rooted in its commitment to offer quality, freshness, and choice that people deserve when it comes to gastronomic pleasure. Multi-faceted, it offers services such as restaurant-quality food delivery, catering, private chef services, as well as packaged products.\n\nA great deal of time and effort goes into preparing a good meal but let's be real, who has time these days? The Tastery team, a team that shares a passion for food &amp; understands that the quickest food pick-up isn't always the best option. So we've made it our mission to make eating well even easier for you. Allow us to take the hard work out of your hands and let us create those special meals for you and those you love." />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whoimage" />
+		
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

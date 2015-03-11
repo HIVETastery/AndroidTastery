@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <rj.hive.tastery.ui.MyTextViewBrandon
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Menu"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/panel1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/selectphantoms"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/a1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/image" />
+
+                    <rj.hive.tastery.ui.MyTextViewBrandon
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/a1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#00000000"
+                        android:drawablePadding="4dip"
+                        android:gravity="center_horizontal"
+                        android:text="Chicken Adobo"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1" >
+
+                    <ImageView
+                        android:id="@+id/a2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/image" />
+
+                    <rj.hive.tastery.ui.MyTextViewBrandon
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/a2"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="#00000000"
+                        android:drawablePadding="4dip"
+                        android:gravity="center_horizontal"
+                        android:text="Tinola"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/image" />
+
+            <rj.hive.tastery.ui.MyTextViewBrandon
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Adobo"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <rj.hive.tastery.ui.MyButtonBrandon
+                android:id="@+id/addasset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/registration_buttons_bg"
+                android:padding="10dp"
+                android:text="Add as a set"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

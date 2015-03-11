@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#005476"
+  android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="10dp">
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_margin="3dp" />
+
+    
+    <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/headertext"
+            android:layout_margin="10dp"
+	        android:layout_centerHorizontal="true"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_above="@+id/texttitle"
+            android:text="Add as a Set" />    
+    
+      <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/texttitle"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mechado"
+            android:layout_below="@+id/imageView1" />
+        
+ 
+    
+      <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/text2"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/texttitle"
+            android:text="With soy extracts, this mechado is the best in the country. Many people love this food." />
+    
+      
+    <LinearLayout
+        android:layout_below="@+id/text2"
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="5dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/price"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="P199"
+            android:layout_marginRight="10dp" />
+
+    <Button
+            android:id="@+id/addtotummy"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to tummy"      
+            android:textColor="#FFFFFF"
+            android:background="@drawable/registration_buttons_bg"
+        />
+
+    </LinearLayout>	         
+
+</RelativeLayout>
+</ScrollView>

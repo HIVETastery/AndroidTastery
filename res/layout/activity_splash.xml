@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:orientation="vertical" android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:gravity="center_vertical"
+          android:background="#005476">
+
+          <ImageView 
+              	  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+				  android:layout_margin="10dp"
+                  android:adjustViewBounds="true"
+                  android:src="@drawable/logo_blue"
+                  android:layout_gravity="center"/>
+
+          <rj.hive.tastery.ui.MyTextViewBrandonBold
+               		android:layout_width="fill_parent"
+              		android:layout_margin="10dp"
+              		android:gravity="center"
+              		android:textColor="#ffffff"
+              		android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_height="wrap_content"
+                    android:text="Eat Well. Live Well."/>
+ </LinearLayout>

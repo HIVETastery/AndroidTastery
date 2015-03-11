@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:id="@+id/rj.hive.tastery.ui.MyTextViewBrandon1"
+			android:textAppearance="?android:attr/textAppearanceLarge"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Why we do it" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rj.hive.tastery.ui.MyTextViewBrandon1" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/text"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="In today's instant-obsessed culture where we want everything in a snap, eating well is becoming more of a challenge due to the faster but less healthy alternatives to hearty meals, which give way to various plights that plague our health. We want to march to the beat of a different drum, one with a beat that is steadily growing, and offer fresh and hearty meals that are good and good for you. And while it's not totally instant, we do take most of the work off your hands!\n\nTastery believes in enriching the community around us. We source all our ingredients locally, partnering with local farmers for our produce and meat.  To further our commitment, we have also partnered with Taguyod Bayan by launching our Eat a meal, Give a meal program: for every meal purchased from Tastery, a meal will be donated to someone in need, filling not only their stomachs but also their hearts." />
+        
+        <LinearLayout 
+			android:layout_width="match_parent"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+					<ImageView
+						android:id="@+id/a1"
+						android:layout_width="0dp"
+				        android:layout_height="wrap_content"	
+				        android:layout_weight="1"					        
+					    android:scaleType="fitStart"
+					    android:adjustViewBounds="true"
+					    android:layout_centerHorizontal="true"
+					    android:src="@drawable/image14" />
+					<ImageView
+						android:id="@+id/a2"
+						android:layout_weight="1"		
+						android:layout_width="0dp"
+				        android:layout_height="wrap_content"						        
+					    android:scaleType="fitStart"
+					    android:adjustViewBounds="true"
+					    android:layout_centerHorizontal="true"
+					    android:src="@drawable/image1" />		
+					<ImageView
+						android:id="@+id/a3"
+						android:layout_weight="1"	
+						android:layout_width="0dp"
+				        android:layout_height="wrap_content"						        
+					    android:scaleType="fitStart"
+					    android:adjustViewBounds="true"
+					    android:layout_centerHorizontal="true"
+					    android:src="@drawable/image12" />	
+				
+		</LinearLayout><!-- END OF PICTURES LAYOUT -->    
+		
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

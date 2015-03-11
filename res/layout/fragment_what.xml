@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:id="@+id/rj.hive.tastery.ui.MyTextViewBrandon1"
+			android:textAppearance="?android:attr/textAppearanceLarge"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="What we do?" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rj.hive.tastery.ui.MyTextViewBrandon1" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whatwedoimage" />
+
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/text"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="What makes Tastery different from other businesses out there is the plethora of services that we offer, all under one roof. From restaurant-quality meal delivery to make sure you or your loved ones have hearty meals all day long, to catering and private chef services when you want to spend more time with the company you're with rather than the kitchen, to packaged products to make cooking/entertaining a bit more of a breeze. Basically, good food should be easy, and we just made it a whole lot easier." />
+        
+
+		
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  android:id="@+id/scrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FFFFFF"
+  android:fillViewport="true">
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:background="#ffffff">
+        
+      <rj.hive.tastery.ui.MyTextViewBrandon
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Your Personal Details"
+          android:layout_margin="5dp"
+          android:layout_alignParentTop="true" />
+
+      <LinearLayout
+          android:id="@+id/linearlayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_margin="8dp"
+          android:layout_below="@+id/textView1" >
+
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginTop="30dp"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:id="@+id/text1"
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="First Name"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText1"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"	              
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:inputType="textCapSentences"
+	              android:padding="3dp"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Last Name"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText2"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"	              
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:inputType="textCapSentences"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>
+
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Email"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText3"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:singleLine="true"
+	              android:inputType="textCapSentences"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>          
+
+          
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Telephone"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText4"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:inputType="textCapSentences"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>          
+
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Mobile"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText5"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"
+	              android:inputType="textCapSentences"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>          
+
+
+      </LinearLayout>
+ 
+      
+      <rj.hive.tastery.ui.MyButtonBrandon
+            android:id="@+id/set1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_buttons_bg"
+            android:layout_marginTop="5dp" 
+            android:layout_marginBottom="5dp"
+            android:text="Set"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linearlayout1" />
+      
+      
+      
+      <rj.hive.tastery.ui.MyTextViewBrandon
+          android:id="@+id/textView15"
+          android:layout_below="@+id/set1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Your Address"
+          android:layout_margin="5dp"/>
+
+      <LinearLayout
+          android:id="@+id/linearlayout15"
+          android:layout_below="@+id/textView15"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_margin="8dp">
+
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginTop="30dp"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Company"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/company"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:inputType="textCapSentences"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>                   
+          
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginTop="15dp"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Address 1"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText6"
+	              android:layout_width="0dip"
+	              android:inputType="textCapSentences"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>                
+
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Address 2"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText7"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:inputType="textCapSentences"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>                   
+
+              
+          
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="15dp"
+              android:layout_marginRight="15dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="City"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/editText8"
+	              android:layout_width="0dip"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:inputType="textCapSentences"
+	              android:padding="3dp"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>    
+      </LinearLayout>
+      
+      <rj.hive.tastery.ui.MyButtonBrandon
+            android:id="@+id/set2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_buttons_bg"
+            android:layout_marginTop="5dp" 
+            android:layout_marginBottom="5dp"
+            android:text="Set"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linearlayout15" />
+            
+      
+      <LinearLayout
+          android:id="@+id/linearlayout2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_below="@+id/set2" 
+          android:layout_marginBottom="30dp">
+
+          
+          <rj.hive.tastery.ui.MyTextViewBrandon
+	          android:id="@+id/textView2"
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="Your Password"
+	          android:singleLine="true"
+	          android:layout_margin="5dp"
+	          android:layout_below="@+id/set2" />    
+          
+     
+
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="15dp"
+              android:layout_marginLeft="23dp"
+              android:layout_marginRight="23dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="New Password"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/newPass"
+	              android:layout_width="0dip"
+	              
+              	  android:inputType="textPassword"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>                   
+
+              
+          
+          <LinearLayout 
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#FFFFFF"
+              android:layout_marginBottom="30dp"
+              android:layout_marginLeft="23dp"
+              android:layout_marginRight="23dp"
+              android:orientation="horizontal">
+              
+              
+	          <rj.hive.tastery.ui.MyTextViewBrandon
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:text="Repeat New Password"
+	              android:padding="3dp"/>
+                        
+	          <rj.hive.tastery.ui.MyEditTextBrandon
+	              android:id="@+id/newPassConfirm"
+	              android:layout_width="0dip"
+	              
+              	  android:inputType="textPassword"
+	              android:layout_weight="1"
+	              android:layout_height="wrap_content"
+	              android:hint=""
+	              android:padding="3dp"
+	              android:singleLine="true"
+	              android:lines="1"
+	              android:ems="10" />
+          </LinearLayout>    
+          
+          <LinearLayout
+		        android:orientation="horizontal"
+		        android:paddingLeft="4.0dip"
+		        android:paddingTop="5.0dip"
+		        android:paddingRight="4.0dip"
+		        android:paddingBottom="5dip"
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content">
+		
+		        <rj.hive.tastery.ui.MyButtonBrandon
+		            android:id="@+id/savepass"
+		            android:layout_width="0.0dip" 
+		            android:layout_height="fill_parent"
+		            android:background="@drawable/registration_buttons_bg"
+		            android:layout_marginLeft="15dp" 
+		            android:layout_marginRight="15dp"
+		            android:text="Save Changes"
+		            android:textColor="#FFFFFF"
+		            android:layout_weight="1.0" />
+		
+		        <rj.hive.tastery.ui.MyButtonBrandon
+		            android:id="@+id/deny"
+		            android:layout_width="0.0dip"
+		            android:layout_marginLeft="15dp" 
+		            android:layout_marginRight="15dp"
+		            android:layout_height="fill_parent"
+		            android:background="@drawable/registration_buttons_bg"
+		            android:textColor="#FFFFFF"
+		            android:text="Back"
+		            android:layout_weight="1.0" />
+		
+		    </LinearLayout>	
+          
+          
+          
+      </LinearLayout>  
+      
+      <rj.hive.tastery.ui.MyButtonBrandon
+            android:id="@+id/set3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/registration_buttons_bg"
+            android:layout_marginTop="5dp" 
+            android:layout_marginBottom="15dp"
+            android:padding="5dp"
+            android:text="Change Password"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/set2" />      
+            
+    	<View 
+    	    android:layout_width="1dp"
+    	    android:layout_height="1dp"
+    	    android:visibility="invisible"
+    	    android:layout_below="@+id/set3"
+    	    android:layout_alignParentBottom="true"/>
+      
+	
+  </RelativeLayout>
+</ScrollView>

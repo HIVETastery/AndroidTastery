@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:id="@+id/textView1"
+			android:textAppearance="?android:attr/textAppearanceLarge"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Contact Us" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/text"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" Remember that everyone's nutritional needs are different. Consider reading both the nutrition facts and the list of ingredients. See How to Read Nutrition Facts on Food Labels for more information. Some consumers, for example, are very concerned about avoiding high-fructose corn syrup. Reading the ingredients can also tell you what kind of oil (such as canola, soy, or palm) is used in the food. Read the nutrition facts to find foods that meet your nutritional needs. Some people need to lose weight and eat low-calorie foods; other people need to gain weight and eat high-calorie foods. Some people have digestive disorders and need to increase or decrease their intake of fiber." />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image" />
+		
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

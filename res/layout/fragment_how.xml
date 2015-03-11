@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:id="@+id/textView1"
+			android:textAppearance="?android:attr/textAppearanceLarge"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="How we do it" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        
+		<ImageView
+            android:id="@+id/imageView1"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/image12" />
+		        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/text"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Tastery's commitment to make good food accessible to everyone is at the heart of our operations.  So, how do we get started?" />
+        
+        <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:id="@+id/text2"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sign Up" />
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:id="@+id/text3"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\tBefore getting started, we'd like to know a little about you.  Please create your own Tastery account before placing any orders." />        
+        
+        <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:id="@+id/text4"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Choose, Choose, Choose" />        
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\tCheck out what is being offered for that week and simply choose which meals you want, and when you want them delivered (we have two delivery schedules for your convenience)." />         
+        
+        <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Place Your Order" />
+
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Once you've made your picks, simply place your orders through our on-line order form (ordering steps are explained on the form)." />        
+        
+        <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Payment Please" />        
+        
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="You can pay for your orders through credit card or over-the-counter.  Just choose your payment method at the check-out." />         
+
+        <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Enjoy!" />        
+        
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Now sit back, and wait for your Tastery order to be delivered to your doorstep. To make sure you get the best meals possible, we will include heating instructions with all our meals so you'll know exactly how to heat them up. " />
+
+        <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Packaged Products" />        
+        
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="We believe every catering job or Personal Chef event is very personal and we treat every job as such.  Just contact us through email and we'll have one of our chefs meet with you to discuss your requirements so we can be sure to capture your personality and taste in every dish we serve." />
+        
+
+        <rj.hive.tastery.ui.MyTextViewBrandonBold
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Catering and Personal Chef" />        
+        
+        
+        <rj.hive.tastery.ui.MyTextViewBrandon
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Keep checking back here for the availability of our packaged products." />		
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
